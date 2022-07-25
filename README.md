@@ -7,11 +7,11 @@ With the RTC being clocked off of the low-speed internal oscillator (LSI), the R
 
 Samples were run through Ilja Gerhardt's NIST testsuite in Python with good results: http://gerhardt.ch/random.php
 
-While this can potentially be used as a building block for protocols which require a cryptographic nonce, do not use this for secure applications without conducting your own indpendant testing.
+While this can potentially be used as a building block for protocols which require a cryptographic nonce, do not use this for secure applications without conducting your own independent testing.
 
-Dependancies:
+Dependencies:
 =============
   CodeSourcery ARM tool chain
-  STM32 Standard Peripheral Libarary
+  STM32 Standard Peripheral Library
 
 Initialization code was largely based on Pandafruits excellent STM32 primer: http://pandafruits.com/stm32_primer/stm32_primer_minimal.php
